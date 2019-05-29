@@ -1,2 +1,2 @@
-# autoencoder
+# TueNet
 First project, making an autoencoder
