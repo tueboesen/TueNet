@@ -1,6 +1,11 @@
+import numpy as np
+import torch
+import torch.utils.data as Data
+import torch.nn as nn
+
 class AutoEncoder_v1(nn.Module):
     def __init__(self):
-        super(AutoEncoder, self).__init__()
+        super(AutoEncoder_v1, self).__init__()
 
         self.encoder = nn.Sequential(
             nn.Linear(28*28, 128),

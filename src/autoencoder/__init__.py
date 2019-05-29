@@ -1,4 +1,5 @@
 """
 The ``Autoencoder`` subpackage contains various autoencoders.
 
-"""from autoencoder import AutoEncoder_v1
+"""
+from . import autoencoder_simple
